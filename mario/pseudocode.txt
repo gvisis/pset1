@@ -1,0 +1,10 @@
+ask for input for pyramid
+input has to be between 1-8, not 0, not -1, not double, not a word.
+if it doesnt match the needed input, ask again:
+do
+{
+}
+while (condition)
+
+need to make a code so it prints out hashes one + every new line until height is met
+hash + 1 < pyramid input

@@ -1,0 +1,62 @@
+GREEDY ALGORITHM: is one “that always takes the best immediate, or local, solution while finding an answer.
+
+Greedy algorithms find the overall, or globally, optimal solution for some optimization problems,
+                but may find less-than-optimal solutions for some instances of other problems.”
+
+cashier owes a customer some change and in that cashier’s drawer are:
+
+    quarters (25¢),
+    dimes (10¢),
+    nickels (5¢),
+    and pennies (1¢).
+
+
+PROBLEM TO BE SOLVED:
+
+    decide which coins and how many of each to hand to the customer.
+-----
+Think of a “greedy” cashier as one who wants to take the biggest bite out of this problem as possible with each coin they take out of the drawer.
+
+    For instance, if some customer is owed 41¢, the biggest first (i.e., best immediate, or local) bite that can be taken is 25¢.
+
+(That bite is “best” inasmuch as it gets us closer to 0¢ faster than any other coin would.)
+
+if cash = 36
+printf
+if 36 - 25 true
+go again
+    11 - 25 false next
+    11 - 10 true
+    go again
+    1 - 5 false next
+    1 - 1 true
+print number
+
+/*if cash = 36
+printf
+if 36 - 25 true
+go again
+    11 - 25 false next
+    11 - 10 true
+    go again
+    1 - 5 false next
+    1 - 1 true
+print number
+
+    while (cash < 0);
+    for (int coins = 0; cash - 25; ++coins)
+    {
+        cash = cash - 25;
+        for (int coins2 = coins; cash - 10; ++coins2)
+        {
+            cash = cash - 10;
+            for (int coins3 = coins2; cash - 5; ++coins3)
+            {
+                cash = cash - 5;
+                for (int coins4 = coins3; cash - 1; ++coins4)
+                {
+                    cash = cash - 1;
+                }
+            }
+        }
+        */

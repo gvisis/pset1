@@ -1,0 +1,14 @@
+ask for input
+    has to be at least 13 numbers to be a VISA card
+
+from that number, get every second number from the back
+    double those numbers by 2 
+        add the decimals to the SUM
+
+ADD the SUM with the everysecond number from the beggining
+    the result has to end with the number 0
+    addSum = addSum % 10 
+
+check ccnumber lenght and first number to find the card name VISA,AMEX,MasterCard.
+
+Print out VISA,AMEX,MasterCard or Invalid. 
